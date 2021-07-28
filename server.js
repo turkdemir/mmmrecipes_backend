@@ -6,7 +6,7 @@ const dbConfig= require('./app/config/db.config')
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "https://mmmrecipesfront.herokuapp.com/"
 };
 
 app.use(cors(corsOptions));
